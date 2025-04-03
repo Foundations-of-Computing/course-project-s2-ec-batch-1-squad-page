@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+    background-image: url('Fms9rN8WYB85bnd.jpeg');
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+
+
+}
+
+header {
+    background-color: #d71920;
+    color: white;
+    padding: 20px 0;
+    font-size: 24px;
+}
+
+h2 {
+    color: #fcf7f7;
+}
+
+.player-list, .manager-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+.player-card, .manager-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 250px;
+    text-align: center;
+    padding: 15px;
+    transition: transform 0.2s;
+}
+
+.player-card:hover, .manager-card:hover {
+    transform: scale(1.05);
+}
+
+.player-card img, .manager-card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 5px solid #d71920;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
